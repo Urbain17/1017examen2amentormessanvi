@@ -1,4 +1,9 @@
 # 1017examen2_amentormessanvi
+Les commandes nécessaires pour créer l'application.
+
+npm install -g @vue/cli
+
+vue create 1017examen2amentormessanvi
 
 ## Project setup
 ```
