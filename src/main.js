@@ -7,6 +7,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 Vue.config.productionTip = false
 
+Vue.directive("copyright-directive", {
+  bind: function(el) {
+    let date, year;
+    date = new Date;
+    year = date.getFullYear();
+    el.innerHTML = 'Copyright &copy: ' +  +year + ' ' +  'Test.';
+
+  },
+});
+
+
 
 new Vue({
   router,

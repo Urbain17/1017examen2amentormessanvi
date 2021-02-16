@@ -4,7 +4,7 @@
     <!-- Copyright -->
     <div class="footer-copyright text-center">
       <p class="text-align-center">
-        Copyright &copy; {{ getYearDate }} - ComputHand - All Rights Reserved
+        <span v-copyright-directive></span> - Examen2
       </p>
     </div>
     <!-- Copyright -->
@@ -13,12 +13,8 @@
 </template>
 <script>
 export default {
-  computed: {
-    getYearDate: function() {
-      const date = new Date();
-      return date.getFullYear();
-    },
-  },
+  methods: {},
+
 };
 </script>
 <style scoped>

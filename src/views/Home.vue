@@ -27,8 +27,10 @@
 </template>
 
 <script>
+import {MixinTranslations} from "../mixins/translationMixin";
 import Profil from "../views/Profil.vue";
 export default {
+  mixins: [MixinTranslations],
   data(){
     return {
       showProfil: false,
