@@ -12,7 +12,9 @@
 </template>
 
 <script>
+import {MixinTranslations} from "../mixins/translationMixin";
 export default {
+  mixins: [MixinTranslations],
   name: "Profil",
 };
 </script>
