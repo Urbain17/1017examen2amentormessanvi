@@ -1,21 +1,28 @@
 <template>
 <header>
   <div>
-    <div class="icon-bar">
-      <router-link to="/home"><i class="fa fa-home"></i></router-link>
-      <router-link class="nav-link" to="/login"
-        ><i class="fa fa-sign-in"></i
-      ></router-link>
-      <router-link class="nav-link" to="/contact"
-        ><i class="fa fa-envelope-square"></i
-      ></router-link>
-      <router-link class="nav-link" to="/register">
-        <i class="fa fa-user"></i>
-      </router-link>
-      <router-link class="nav-link" to="/hook"
-        ><i class="fa fa-info-circle"></i
-      ></router-link>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Exam_vue</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+         <router-link to="/home"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </router-link>
+      </li>
+      <li class="nav-item">
+        <router-link to="/Profil"><a class="nav-link" href="#">Profil</a></router-link>
+      </li>
+      <li class="nav-item">
+        <router-link to="/Projet"><a class="nav-link" href="#">Projet</a></router-link>
+      </li>
+      <li class="nav-item">
+        <router-link to="/Contact"><a class="nav-link" href="#">Contact</a></router-link>
+      </li>
+    </ul>
+  </div>
+</nav>
   </div>
 
 </header>
@@ -31,7 +38,7 @@ export default {
 
  .icon-bar {
   width: 100%; /* Full-width */
-  background-color: #555; /* Dark-grey background */
+  background-color: darkcyan; /* Dark-grey background */
   overflow: auto; /* Overflow due to float */
 }
 

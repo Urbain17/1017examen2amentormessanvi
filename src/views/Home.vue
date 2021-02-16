@@ -1,5 +1,7 @@
 <template>
   <div>
+    <div v-if="showProfil">
+      <Profil></Profil>
     <div class="title">
       <h1 class="h1">Home</h1>
     </div>
@@ -20,12 +22,29 @@
         mollit anim id est laborum.
       </p>
     </div>
+    </div>
   </div>
 </template>
 
 <script>
+import Profil from "../views/Profil.vue";
 export default {
+  data(){
+    return {
+      showProfil: false,
+    };
+  },
+  components: {
+    Profil,
+  },
   name: "Home",
+  methods: {},
+  created(){
+    var loggedIn = false;
+    if (loggedIn) {
+      this.showProfil = true;
+    }
+  }
 };
 </script>
 
