@@ -4,8 +4,9 @@
     <!-- Copyright -->
     <div class="footer-copyright text-center">
       <p class="text-align-center">
-        <span v-copyright-directive></span> - Examen2
+        <span v-copyright-directive></span> - Projet final
       </p>
+      <a href="https://github.com/Urbain17/1017examen2amentormessanvi/blob/main/LICENSE" target="_blank" >Conditions d'utilisation</a>
     </div>
     <!-- Copyright -->
   </footer>
