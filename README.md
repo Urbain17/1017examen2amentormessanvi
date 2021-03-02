@@ -1,4 +1,10 @@
 # 1017examen2_amentormessanvi
+Plateforme de déploiement pour rendre disponible : https://urbain17.github.io/1017examen2amentormessanvi/
+
+-Repository sur gitHub
+-GitHub Pages offre la possible de rendre le site disponible alors autant utiliser la même plateforme
+-Faire un run build et pousser le code sur GitHub
+
 
 Projet Final
 
