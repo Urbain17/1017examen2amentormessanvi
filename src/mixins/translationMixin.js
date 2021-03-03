@@ -1,4 +1,6 @@
 export const MixinTranslations ={
+
+    
     data () {
         return {
             en: {
@@ -17,4 +19,19 @@ export const MixinTranslations ={
             }
         }
     },
+
+    //Jest
+    // data() {
+    //      en: {
+    //           age: "Age"
+    //        },
+    //        fr: {
+    //            age: "Ager"
+    //        }
+    //
+    //    }
+    // expeect (age).toBe('translation ager');
+    //
+    //
+    //
 };
